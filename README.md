@@ -32,7 +32,9 @@
 <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=23abhishek2024&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
 <div align="center">
 <!--   <img src="https://github-readme-streak-stats.herokuapp.com/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="Beautiful Edit"/>  -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="Beautiful Edit"/>
+<!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="Beautiful Edit"/> -->
+https://github-readme-streak-stats.vercel.app/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0
+
 
 </div>
 
