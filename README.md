@@ -1,84 +1,84 @@
-<!--------------------------------------------------------------------------ABOUT-------------------------------------------------------------------------------->
+<h1 align="center">👋 Hello! I'm Abhishek Kumar</h1>
 
-# 👋 Hello! I'm Abhishek Kumar
+<p align="center">
+  <strong>Software Engineer | Competitive Programmer | AI Enthusiast</strong><br>
+  <i>B.Tech in Civil Engineering @ Indian Institute of Technology (BHU) Varanasi</i>
+</p>
 
-I am a passionate full-stack and frontend web developer with a strong foundation in building interactive, modern web applications. I specialize in HTML, CSS, JavaScript, Node.js, Express.js, MongoDB with experience in modern UI/UX design tools like Figma and Canva.  
+I am a software engineer specializing in scalable backend architecture, real-time systems, and GenAI integrations. I build robust full-stack applications with an emphasis on database concurrency, secure authentication, and distributed architecture.
 
-As a 2nd-year Civil Engineering student at IIT BHU, I actively participate in competitive programming, open-source projects, and AI-based solutions.
+Alongside development, I am an avid competitive programmer who enjoys tackling complex algorithmic challenges across various platforms.
 
 ---
 
 ### 🔹 About Me  
-- 🔥 **Current Role**: 2nd-year Civil Engineering Student at IIT BHU | Competitive Programmer | AI Enthusiast  
-- 🛠 **Languages & Tools**: C, C++, Java, Python, HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, EJS, Socket.io, Multer, AI, Canva, Figma, AutoCAD, QGIS  
-- 🚀 **Looking for**: Collaboration on open-source and full-stack web development projects  
+- 💼 **Experience**: Software Developer Intern at **Velantrio Ventures** | Selected for **Amazon ML Summer School 2026** (Top 2.2% nationwide)
+- 🏆 **Problem Solving**: Solved **1000+** Data Structures & Algorithms problems.
+- ⚡ **Competitive Coding**: **Knight** on LeetCode (Max: 1868, Global Rank 774 in Weekly 513), **Specialist** on Codeforces (Max: 1456), **3-Star** on CodeChef.
+- 🚀 **Currently Exploring**: Advanced System Design, Retrieval-Augmented Generation (RAG), and Cloud Architecture.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+- **Languages:** C/C++, JavaScript, Python, SQL
+- **Frontend:** React.js, Redux Toolkit, Tailwind CSS, HTML/CSS
+- **Backend & Database:** Node.js, Express.js, PostgreSQL, MongoDB, Redis, Prisma ORM
+- **Architecture & DevOps:** Docker, Socket.io, RESTful APIs, JWT Authentication
+- **AI/ML:** LangChain, Groq AI, Google Gemini API, RAG
 
 ---
 
 ## 🚀 Featured Projects  
 
-### 🔸 Foundify – Lost & Found Web App  
-A full-stack web application for IIT BHU campus to report, search, and manage lost or found items with real-time chat, personal dashboards, and email notifications.  
-**Tech Stack**: Node.js, Express.js, MongoDB, EJS, Socket.io, Multer, Nodemailer, Node-Cron  
+### 🔸 [AuctionLoom](https://github.com/23abhishek2024/Aution-bid) — Real-Time Auction & Settlement Engine
+A high-concurrency full-stack auction platform engineered to handle simultaneous bidding without data loss.
+* **Concurrency:** Prevented race conditions and lost updates using PostgreSQL row-level pessimistic locking (`SELECT FOR UPDATE`).
+* **Real-Time Streaming:** Architected WebSocket communication via Socket.IO rooms for sub-50ms live price streaming without page reloads.
+* **Job Queues:** Built a distributed background worker queue using PostgreSQL `SKIP LOCKED` for automated, duplicate-free settlements.
+* **AI Integration:** Integrated Google Gemini AI for automated item valuation and containerized the multi-service backend with Docker.
 
-**Key Features**:  
-- User Authentication with Sessions & JWT  
-- Lost & Found item reporting with image uploads  
-- Real-time chat using Socket.io  
-- Email alerts & daily summary scheduler  
-- Clean, responsive EJS-based UI  
+### 🔸 PrepTrace — AI-Powered Mock Interviewer & ATS Analyzer
+An intelligent career preparation platform generating dynamic interviews and analyzing resumes.
+* **AI Engine:** Built an interactive AI mock interviewer using LangChain and Groq AI for role-specific questions and real-time feedback across 8 rubrics.
+* **Resume Parsing:** Developed an ATS resume analyzer that extracts raw text via `pdf-parse` to compute match scores and map skill gaps.
+* **State Management:** Engineered a dynamic resume builder and career roadmap utilizing Redux Toolkit for complex state management and PDF exports.
+* **Security:** Secured user sessions using strict HTTP-only, SameSite JWT cookies to mitigate XSS attacks.
 
-GitHub: [Foundify](https://github.com/23abhishek2024/Foundify)
-
----
-
-### 🔸 Sudoku Puzzle Game  
-An interactive Sudoku web game built with HTML, CSS, JavaScript featuring difficulty levels, live timer, error counter, reset option, and victory animations.  
-
-**Tech Stack**: HTML, CSS, JavaScript  
-
-**Key Features**:  
-- 3 Difficulty Modes (Easy, Medium, Hard)  
-- Timer & Mistake Counter  
-- LocalStorage Leaderboard  
-- Reset, Victory Confetti & Sound Effects  
-
-GitHub: [Sudoku Puzzle Game](https://github.com/23abhishek2024/javascript-sudoku)
+### 🔸 [Foundify](https://github.com/23abhishek2024/Foundify) — Campus Lost & Found Hub
+A comprehensive full-stack web application for the IIT BHU campus to report, search, and manage items.
+* **Core Features:** Session-based authentication, real-time chat via Socket.io, and image uploads via Multer.
+* **Automation:** Configured Node-Cron and Nodemailer for daily summary schedulers and automated email alerts.
 
 ---
 
-### 🔸 Tribute Website for Dr. APJ Abdul Kalam  
-A responsive tribute website built using HTML and CSS to honor the life and work of Dr. APJ Abdul Kalam.  
+## 💻 Competitive Programming Profiles  
 
-**Features**:  
-- Interactive Timeline  
-- Smooth CSS animations  
-- Fully responsive for mobile & desktop  
-
----
-
-## 📊 Contribution Stats  
-
-![Stats](https://github-readme-stats.vercel.app/api?username=23abhishek2024&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=23abhishek2024&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117)
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0)
+[![LeetCode](https://img.shields.io/badge/leetcode-Knight_%7C_1868-D14836.svg?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/unknown_2911/)
+[![Codeforces](https://img.shields.io/badge/codeforces-Specialist_%7C_1456-%231F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/23_abhishek_24)
+[![CodeChef](https://img.shields.io/badge/codechef-3--Star-8B4513.svg?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/unknown_2911)
+[![GeeksforGeeks](https://img.shields.io/badge/geeksforgeeks-Solved_800+-%2300FF00.svg?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/abhisheprlx)
 
 ---
 
-## 💻 Coding Profiles  
+## 📊 GitHub Analytics  
 
-[![Codeforces](https://img.shields.io/badge/codeforces-%231F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/23_abhishek_24)
-[![LeetCode](https://img.shields.io/badge/leetcode-D14836.svg?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/23_abhishek_2024/)
-[![GeeksforGeeks](https://img.shields.io/badge/geeksforgeeks-%2300FF00.svg?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/abhisheprlx)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=23abhishek2024&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=23abhishek2024&langs_count=6&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=23abhishek2024&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="Streak" />
+</p>
 
 ---
 
 ## 🔗 Connect with Me  
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-kumar-17444b282/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhishek78579@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhishek825215@gmail.com)
 
 ---
-
-<img src="https://komarev.com/ghpvc/?username=23abhishek2024&color=blue" />
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=23abhishek2024&color=blue" alt="Profile Views" />
+</p>
